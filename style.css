@@ -1,0 +1,93 @@
+/* Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* parei aqui com o INFONET 1 A */
+
+.menu a:hover {
+  color: #00aced;
+}
+
+/* Conteúdo principal */
+main {
+  padding: 40px 0;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* Responsivo */
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Rodapé */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.news-header-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#mensagem {
+  margin-top: 15px;
+}
